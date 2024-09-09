@@ -1,19 +1,20 @@
-Project Structure : 
+## Project Structure
 
+```bash
 sauceDemo/
 │
 ├── src/
-│   ├── main/             
-│   └── test/            
+│   ├── main/              # Application code (if any)
+│   └── test/              # Test-related files
 │       ├── java/
 │       │   └── stepDefinitions/  # Java step definitions
 │       │       └── TestRunner.java   # JUnit test runner for Cucumber
 │       └── resources/
-│           └── features/  # feature files
+│           └── features/  # Gherkin feature files
 │               └── your_feature_file.feature
 │
-├── target/                # Generated files (reports)
-└── pom.xml     
+├── target/                # Generated files (reports, compiled classes)
+└── pom.xml                # Maven configuration file
 
 Prerequisites:-
 
