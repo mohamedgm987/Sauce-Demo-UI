@@ -4,16 +4,16 @@
 sauceDemo/
 │
 ├── src/
-│   ├── main/              # Application code (if any)
-│   └── test/              # Test-related files
+│   ├── main/             
+│   └── test/           
 │       ├── java/
 │       │   └── stepDefinitions/  # Java step definitions
 │       │       └── TestRunner.java   # JUnit test runner for Cucumber
 │       └── resources/
-│           └── features/  # Gherkin feature files
+│           └── features/  #  feature files
 │               └── your_feature_file.feature
 │
-├── target/                # Generated files (reports, compiled classes)
+├── target/                # Generated files (reports)
 └── pom.xml                # Maven configuration file
 
 Prerequisites:-
