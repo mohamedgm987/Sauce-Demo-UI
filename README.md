@@ -3,18 +3,17 @@ Project Structure :
 sauceDemo/
 │
 ├── src/
-│   ├── main/              
-│   └── test/             
+│   ├── main/             
+│   └── test/            
 │       ├── java/
 │       │   └── stepDefinitions/  # Java step definitions
 │       │       └── TestRunner.java   # JUnit test runner for Cucumber
 │       └── resources/
-│           └── features/  
+│           └── features/  # feature files
 │               └── your_feature_file.feature
 │
 ├── target/                # Generated files (reports)
-└── pom.xml                # Maven configuration file
-
+└── pom.xml     
 
 Prerequisites:-
 
